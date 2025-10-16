@@ -51,3 +51,19 @@ a:hover {
 a:active {
     color: #ff6347;           /* when the link is clicked */
 }
+
+
+/* right side styling */
+.right-screen{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 60%;
+    justify-content: space-evenly;
+}
+.right-screen:nth-child(odd){
+    background-color: aliceblue;
+}
+.first-box{
+
+}
