@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+    overflow: hidden; /* 🚫 hides all scrollbars */
+}
+
 .container{
     display: flex;
     height: 100vh;
@@ -12,8 +17,37 @@
 .left-screen{
     width: 40%;
     height: 100vh;
+    position: relative;
 }
 img{
     width: 100%;
     height: 100%;
+    object-fit: cover; /* ensures image covers the box nicely */
+}
+.left-screen > p{
+    position: absolute;
+    bottom: 10px; /* position where you want it */
+    left: 210px;
+    color: white; /* ensure it's visible */
+    font-size: 0.9rem;
+    background: rgba(0, 0, 0, 0.4); /* subtle background for readability */
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+a {
+    color: white;             /* default link color */
+    /* text-decoration: none;     */
+}
+
+a:visited {
+    color: lightgray;         /* after the link has been visited */
+}
+
+a:hover {
+    color: #00bfff;           /* when user hovers over */
+    text-decoration: underline;
+}
+
+a:active {
+    color: #ff6347;           /* when the link is clicked */
 }
