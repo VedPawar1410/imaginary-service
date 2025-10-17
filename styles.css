@@ -67,15 +67,17 @@ a:active {
 .first-box{
     text-align: left;
     background-color: beige;
-    height: 33.33%;
+    height: 40%;
     width: 100%;
+    padding: 150px 0px 0px 40px;
+    font-size: 24px;
 }
 .second-box{
-    height: 33.33%;
+    height: 30%;
     width: 100%;
 }
 .third-box{
-    height: 33.33%;
+    height: 40%;
     width: 100%;
     background-color: beige;
 }
