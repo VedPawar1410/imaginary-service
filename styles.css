@@ -59,11 +59,23 @@ a:active {
     flex-direction: column;
     height: 100vh;
     width: 60%;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .right-screen:nth-child(odd){
     background-color: aliceblue;
 }
 .first-box{
-
+    text-align: left;
+    background-color: beige;
+    height: 33.33%;
+    width: 100%;
+}
+.second-box{
+    height: 33.33%;
+    width: 100%;
+}
+.third-box{
+    height: 33.33%;
+    width: 100%;
+    background-color: beige;
 }
