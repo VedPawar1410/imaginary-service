@@ -66,11 +66,13 @@ a:active {
 }
 .first-box{
     text-align: left;
-    background-color: beige;
+    background-color: 	#ece0d1;
     height: 40%;
     width: 100%;
     padding: 150px 0px 0px 40px;
     font-size: 24px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .second-box{
     height: 30%;
@@ -79,7 +81,7 @@ a:active {
 .third-box{
     height: 40%;
     width: 100%;
-    background-color: beige;
+    background-color: 	#ece0d1;
     padding: 35px 0px 0px 40px;
 }
 .third-box>button{
