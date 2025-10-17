@@ -117,3 +117,15 @@ a:active {
   box-shadow: #422800 2px 2px 0 0;
   transform: translate(2px, 2px);
 }
+
+.log-in{
+    margin-top: 20px;
+}
+.log-in>span>a{
+    color: #422800;
+    text-decoration:none;
+    font-weight: 300;
+}
+.log-in>span>a:hover{
+    color: aqua;
+}
