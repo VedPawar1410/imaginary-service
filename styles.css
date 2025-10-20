@@ -129,3 +129,8 @@ a:active {
 .log-in>span>a:hover{
     color: aqua;
 }
+
+/* forms */
+.form-first-line, .form-second-line, .form-third-line{
+    display: flex;
+}
