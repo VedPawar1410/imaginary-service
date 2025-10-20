@@ -77,6 +77,7 @@ a:active {
 .second-box{
     height: 30%;
     width: 100%;
+    padding: 35px 0px 0px 40px;
 }
 .third-box{
     height: 40%;
@@ -131,6 +132,13 @@ a:active {
 }
 
 /* forms */
+label {
+    display: block; /* Makes the label take up the full width and move to a new line */
+    margin-bottom: 2px; /* Adds some space between the label and the input */
+}
 .form-first-line, .form-second-line, .form-third-line{
     display: flex;
+}
+.form-title{
+    font-weight: bold;
 }
