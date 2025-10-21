@@ -134,11 +134,23 @@ a:active {
 /* forms */
 label {
     display: block; /* Makes the label take up the full width and move to a new line */
-    margin-bottom: 2px; /* Adds some space between the label and the input */
+    margin-bottom: 1px; /* Adds some space between the label and the input */
 }
 .form-first-line, .form-second-line, .form-third-line{
     display: flex;
+    margin-bottom: 5px;
+    column-gap: 60px; /* adds space between elements */
+
 }
 .form-title{
     font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+form label{
+    font-size: 15px;
+}
+form input{
+    font-size: 20px;
+    width: 250px;
 }
