@@ -29,19 +29,56 @@ html, body {
     top: 20%;
     left: 45%;
 }
-.left-screen{
-    width: 40%;
-    height: 100vh;
+.left-screen {
     position: relative;
+    width: 50%;
+    height: 100vh;
     overflow: hidden;
 }
 .left-screen img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* opacity: 0.6; makes the image lighter */
-    mix-blend-mode: multiply; /* blends with background color if there is one */
 }
+/* Dark translucent overlay over the image */
+.left-screen::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* adjust opacity for more/less blending */
+    z-index: 1;
+}
+/* * Container for logo and text */
+.left-screen .logo-box {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  z-index: 2;
+  mix-blend-mode: screen; /* makes white elements blend with background */
+}
+/* Logo image styling */
+.left-screen .logo-box img {
+    width: 80px;
+    height: auto;
+    opacity: 0.9;
+  }
+  
+  /* Logo text */
+  .left-screen .logo-box p {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+    margin: 0;
+    opacity: 0.9;
+  }
+  
 /* Container for logo and text */
 .left-screen div {
     position: absolute;
