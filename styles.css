@@ -2,6 +2,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Alan Sans';
+}
+
+.alan-sans-regular {
+    font-family: "Alan Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 html, body {
@@ -72,7 +80,7 @@ a:active {
     padding: 150px 0px 0px 40px;
     font-size: 24px;
     font-weight: 400;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Alan Sans', Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .second-box{
     height: 30%;
